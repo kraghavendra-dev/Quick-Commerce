@@ -1,16 +1,59 @@
-# React + Vite
+# QuickMart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuickMart is a responsive e-commerce web application built with **React.js**, **Tailwind CSS**, and **Redux Toolkit**. It allows users to browse products, search and filter products by category, view product details, and manage their shopping cart.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://quick-commerce-three.vercel.app/
 
-## React Compiler
+## API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://dummyjson.com/products
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Product listing using API
+* Search products with debounce
+* Category-based product filtering
+* Product details page
+* Dynamic routing using React Router
+* Add to cart functionality
+* Increase/decrease product quantity
+* Remove products from cart
+* Total price calculation based on quantity
+* Cart data persistence using localStorage
+* Login and signup UI with form validation
+* Lazy loading for Product Details page
+* Responsive design using Tailwind CSS
+
+## Technologies Used
+
+* React.js
+* JavaScript (ES6+)
+* Tailwind CSS
+* Redux Toolkit
+* React Router
+* Axios
+* REST API
+* LocalStorage
+* Vite
+
+## Key Learnings
+
+* React component-based architecture
+* Redux Toolkit state management
+* REST API integration using Axios
+* Dynamic routing with React Router
+* Debounced search
+* LocalStorage persistence
+* Form validation
+* Lazy loading
+* Responsive UI development
+* Tailwind CSS
+
+## Author
+
+**Raghavendra Karingu**
+
+Frontend Developer | React.js | JavaScript | Tailwind CSS | Redux Toolkit
+
